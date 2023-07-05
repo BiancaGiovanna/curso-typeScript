@@ -37,16 +37,16 @@ console.log(myPen)
 
 // 4 - type parameters
 
-function getSomeKey<T, K extends keyof T>(obj: T, key: K) {
-  return `A chave ${key} tem o valor ${obj[key]}`
-}
+// function getSomeKey<T, K extends keyof T>(obj: T, key: K) {
+//   return `A chave ${key} tem o valor ${obj[key]}`
+// }
 
-const server = {
-  hd: '2TB',
-  ram: '32GB',
-}
+// const server = {
+//   hd: '2TB',
+//   ram: '32GB',
+// }
 
-console.log(getSomeKey(server, 'ram'))
+// console.log(getSomeKey(server, 'ram'))
 
 // 5 - keyof type operator
 
