@@ -10,11 +10,11 @@ const y: number = 3.14329492349
 console.log(y.toPrecision(3))
 
 // 2 - string
-const firstName: string = 'Matheus'
+const firstName: string = 'Bianca'
 
 console.log(firstName.toUpperCase())
 
-const lastName: string = 'Battisti'
+const lastName: string = 'Gomes'
 
 let fullName: string
 

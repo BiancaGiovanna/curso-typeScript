@@ -8,7 +8,7 @@ console.log(nums[2])
 // nums.push('a')
 // nums = 'teste'
 
-const nomes = ['Matheus', 'Pedro']
+const nomes = ['Bianca', 'Pedro']
 
 // nomes.push(2)
 
@@ -22,7 +22,7 @@ numbers.push(200)
 console.log(numbers[1])
 
 // 3 - any
-const arr: any[] = [1, 'teste', true, { nome: 'Matheus' }]
+const arr: any[] = [1, 'teste', true, { nome: 'Bianca' }]
 
 console.log(arr)
 
@@ -46,7 +46,7 @@ function greeting(name: string): string {
   // return 1
 }
 
-console.log(greeting('Matheus'))
+console.log(greeting('Bianca'))
 
 // greeting(1)
 
@@ -88,7 +88,7 @@ function advancedGreeting(firstName: string, lastName?: string) {
   console.log(`Olá, ${firstName}, tudo bem?`)
 }
 
-advancedGreeting('Matheus', 'Battisti')
+advancedGreeting('Bianca', 'Erick')
 advancedGreeting('João')
 
 // 10 - union type
@@ -131,7 +131,7 @@ function userDetails(user: User) {
   console.log(`Sobrenome: ${user.surname}`)
 }
 
-userDetails({ name: 'Matheus', surname: 'Battisti' })
+userDetails({ name: 'Bianca', surname: 'Gomes' })
 
 // 13 - interfaces
 interface Point {
